@@ -1,5 +1,5 @@
 # GettingCleaningData
-Getting and Cleaning Data Course Project
+## Getting and Cleaning Data Course Project (Coursera - Johns Hopkins)
 
 This repo contains 
 * A R script file (run_analysis.R), for performing all the data processing and analysis tasks, to produce a final tidy dataset in the project
