@@ -16,7 +16,7 @@ Naming convention for the 79 numeric variables in dsSummary:
 
 (3)	The original feature variable names are cleaned by removing or replacing some special characters, “(“, “)”, “,” and “-”. For better readability, “_” is used in places of some of these above special characters. 
 
-(4)	However, the original feature variable names were not unique. This is the reason why both the original variable number and variable name are combined to create a new unique name for each feature variable.
+(4)	However, the original feature variable names were not unique. This is the reason why both the original variable number and variable name are combined to create a new unique descriptive name for each feature variable.
 
 The “Acc” feature variables should be in the standard gravity units 'g'. The “Gyro” feature variables should be in the units of radians/second. More information about the specific meanings of the feature variables can be found from the dataset description, available at the website mentioned above. 
 
