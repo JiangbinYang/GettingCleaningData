@@ -101,4 +101,3 @@ The “Acc” feature variables should be in the standard gravity units 'g'. The
 79. v542_fBodyBodyGyroJerkMag_mean
 80. v543_fBodyBodyGyroJerkMag_std
 81. v552_fBodyBodyGyroJerkMag_meanFreq
-
