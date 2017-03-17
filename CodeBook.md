@@ -26,7 +26,9 @@ Naming convention for the 79 numeric variables in dsSummary:
 
 (4)	However, the original feature variable names were not unique. This is the reason why both the original variable number and variable name are combined to create a new unique descriptive name for each feature variable.
 
-The “Acc” feature variables should be in the standard gravity units 'g'. The “Gyro” feature variables should be in the units of radians/second. More information about the specific meanings of the feature variables can be found from the dataset description, available at the website mentioned above. 
+In the feature variable names, "t" denotes time domain signal measurements, while "f" denotes frequency domain. "Acc" indicates the measurement was from accelerometer, and "Gyro" gyroscope. "Mag" stands for magnitude. '-XYZ' represents 3-axial signals in the X, Y and Z directions, respectively. 
+
+The “Acc” feature variables are in the standard gravity units 'g'. The “Gyro” feature variables are in the units of radians/second. More information about the meanings of the feature variables can be found from the dataset description, available at the website mentioned above. 
 
 1. activityName
 2. subjectID
