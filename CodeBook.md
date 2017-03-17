@@ -2,11 +2,19 @@
 
 ## Jiangbin Yang, March 16, 2017
 
-In a project of Human Activity Recognition Using Smartphones, by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at Smartlab (www.smartlab.ws), experiments had been carried out with a group of 30 volunteer subjects. Each subject performed 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Sensor signals from accelerometer and gyroscope embedded in the smartphone had been captured and pre-processed. 561 selected statistical features of directional time and frequency domain variables derived from the signals had been recorded for each experimental observation of a 2.56 sec fixed-width sample window, for each subject performing each activity. The experimental data is available on the website, “http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones”. 
+In a project of Human Activity Recognition Using Smartphones, by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at Smartlab (www.smartlab.ws), experiments had been carried out with a group of 30 volunteer subjects. Each subject performed 6 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Sensor signals from accelerometer and gyroscope embedded in the smartphone had been captured and pre-processed. 561 selected statistical features of directional time and frequency domain variables derived from the signals had been recorded for each experimental observation of a 2.56 sec fixed-width sample window, for each subject performing each activity. The experimental data with full description is available on the website, “http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones”. The data link for this course project is: "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 
-In this course project, the data is downloaded from the internet, read into R, further cleaned, extracted, processed and merged, and a final summary dataset (“dsSummary”) has been produced. For both of the original Training and Test sets, subject ID, feature and activity label datasets are first column combined. Then the column-combined Training and Test datasets are further row combined. Please see the R script file “run_analysis.R” and the in-line comments for the specific processing and analysis involved. 
+In this course project, the data is downloaded from the web link, read into R, further cleaned, extracted, processed and merged, and a final summary dataset (“dsSummary”) has been produced. For both of the original Training and Test sets, subject ID, feature and activity label datasets are first column combined. Then the column-combined Training and Test datasets are further row combined. The following required tasks are done in the R script “run_analysis.R”.
 
-There are total 81 variables in the final dsSummary dataset. The 1st variable is “activityName”, a character variable describing the 6 activities. The 2nd variable is “subjectID”, an integer variable from 1 to 30, identifying the 30 subjects. The remaining 79 variables are all numeric, representing the average of each mean or standard deviation feature variable for each activity and each subject. All these 81 variables are listed in the later part of this codebook. 
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Please see the R script file “run_analysis.R” and the in-line comments for more specific processing and analysis involved. 
+
+In the final dataset "dsSummary", there are total 81 variables. The 1st variable is “activityName”, a character variable describing the 6 activities. The 2nd variable is “subjectID”, an integer variable from 1 to 30, identifying the 30 subjects. The remaining 79 variables are all numeric, representing the average of each mean or standard deviation feature variable for each activity and each subject. All these 81 variables are listed in the later part of this codebook. 
 
 Naming convention for the 79 numeric variables in dsSummary:
 
