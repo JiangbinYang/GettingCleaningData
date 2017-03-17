@@ -1,4 +1,4 @@
-# Codebook for the final summary dataset (dsSummary) for the Getting and Cleaning Data Course Project
+# Codebook for the final tidy dataset (dsSummary) for the Getting and Cleaning Data Course Project
 
 ## Jiangbin Yang, March 16, 2017
 
