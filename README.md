@@ -1,7 +1,7 @@
 # GettingCleaningData
 ## Getting and Cleaning Data Course Project (Coursera - Johns Hopkins)
 
-This repo contains 
+Besides this Readme file, this repo contains 
 * A R script file (run_analysis.R), for performing all the data processing and analysis tasks, to produce a final tidy dataset in the project
 * A codebook (CodeBook.md), describing all the variables in the final tidy dataset, the project data and background information, and the transformations performed to produce the final tidy dataset
 
