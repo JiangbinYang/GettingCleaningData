@@ -14,7 +14,7 @@ In this course project, the data is downloaded from the web link, read into R, f
 
 Please see the R script file “run_analysis.R” and the in-line comments for more specific processing and analysis involved. 
 
-In the final dataset "dsSummary", there are total 81 variables. The 1st variable is “activityName”, a character variable describing the 6 activities. The 2nd variable is “subjectID”, an integer variable from 1 to 30, identifying the 30 subjects. The remaining 79 variables are all numeric, representing the average of each mean or standard deviation feature variable for each activity and each subject. All these 81 variables are listed in the later part of this codebook. 
+In the final dataset "dsSummary", there are total 81 variables. The 1st variable is “activityName”, a character variable describing the 6 activities. The 2nd variable is “subjectID”, an integer variable from 1 to 30, identifying the 30 subjects. The remaining 79 variables are all numeric, representing the average of each mean or standard deviation feature variable for each activity and each subject. **Notes:** Besides the mean() and std() feature variables, *meanFreq() feature variables are included*. There would be 66 mean() and std() feature variables, without meanFreq(). All these 81 variables are listed in the later part of this codebook. 
 
 Naming convention for the 79 numeric variables in dsSummary:
 
